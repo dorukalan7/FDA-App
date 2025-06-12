@@ -1,5 +1,5 @@
-import 'package:fda/model/news_model.dart';
-import 'package:fda/view/WebViewPage.dart';
+import 'package:fda/app/common/model/news_model.dart';
+import 'package:fda/app/presentation/webviewpage/WebViewPage.dart';
 import 'package:flutter/material.dart';
 
 class NewsCard extends StatelessWidget {

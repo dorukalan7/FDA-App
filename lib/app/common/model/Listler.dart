@@ -1,9 +1,9 @@
-import 'package:fda/model/FavoriteModel.dart';
-import 'package:fda/model/drugsinfo.dart';
-import 'package:fda/model/medicaldevicemodel.dart';
-import 'package:fda/model/recall_model.dart';
-import 'package:fda/model/tobaccomodel.dart';
-import 'package:fda/model/vacmodel.dart';
+import 'package:fda/app/common/model/FavoriteModel.dart';
+import 'package:fda/app/common/model/Drug_model.dart';
+import 'package:fda/app/common/model/medicaldevicemodel.dart';
+import 'package:fda/app/common/model/Food_model.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
+import 'package:fda/app/common/model/vacmodel.dart';
 // Diğer modeller
 
 List<FavoriteItem> getFavoriteItemsFromVaccines(List<Vacmodel> reports) {

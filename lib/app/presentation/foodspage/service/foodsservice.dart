@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../../../model/recall_model.dart';
+import '../../../common/model/Food_model.dart';
 
 class RecallService {
   Future<List<RecallModel>> getRecallsByStatus(String status) async {

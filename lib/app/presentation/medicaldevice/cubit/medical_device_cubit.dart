@@ -1,4 +1,4 @@
-import 'package:fda/view/medicaldevice/service/medicaldeviceservice.dart';
+import 'package:fda/app/presentation/medicaldevice/service/medicaldeviceservice.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 

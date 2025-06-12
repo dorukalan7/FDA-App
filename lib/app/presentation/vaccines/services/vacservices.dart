@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:fda/model/vacmodel.dart';
+import 'package:fda/app/common/model/vacmodel.dart';
 
 class VacService {
   final Dio _dio = Dio();

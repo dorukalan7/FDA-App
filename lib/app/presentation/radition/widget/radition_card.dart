@@ -1,6 +1,6 @@
-import 'package:fda/cubit/favorite_cubit.dart';
-import 'package:fda/model/FavoriteModel.dart';
-import 'package:fda/model/medicaldevicemodel.dart';
+import 'package:fda/app/common/cubit/favorite_cubit.dart';
+import 'package:fda/app/common/model/FavoriteModel.dart';
+import 'package:fda/app/common/model/medicaldevicemodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

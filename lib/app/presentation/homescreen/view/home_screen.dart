@@ -1,24 +1,24 @@
 import 'dart:ui';
-import 'package:fda/cubit/search_cubit.dart';
-import 'package:fda/model/FavoriteModel.dart';
-import 'package:fda/model/Listler.dart';
-import 'package:fda/model/drugsinfo.dart';
-import 'package:fda/model/medicaldevicemodel.dart';
-import 'package:fda/model/recall_model.dart';
-import 'package:fda/model/tobaccomodel.dart';
-import 'package:fda/model/vacmodel.dart';
-import 'package:fda/view/homescreen/drawer/custom_drawer.dart';
-import 'package:fda/enum/category_type.dart' as my_cat;
-import 'package:fda/viewmodel/home_view_model.dart';
-import 'package:fda/viewmodel/searchviewmodel.dart';
+import 'package:fda/app/common/cubit/search_cubit.dart';
+import 'package:fda/app/common/model/FavoriteModel.dart';
+import 'package:fda/app/common/model/Listler.dart';
+import 'package:fda/app/common/model/Drug_model.dart';
+import 'package:fda/app/common/model/medicaldevicemodel.dart';
+import 'package:fda/app/common/model/Food_model.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
+import 'package:fda/app/common/model/vacmodel.dart';
+import 'package:fda/app/presentation/homescreen/widgets/drawer/custom_drawer.dart';
+import 'package:fda/app/common/enum/category_type.dart' as my_cat;
+import 'package:fda/app/presentation/viewmodel/horizontal_view_model.dart';
+import 'package:fda/app/presentation/viewmodel/searchviewmodel.dart';
 
-import 'package:fda/widgets/featuredcard.dart';
-import 'package:fda/view/homescreen/widgets/newscard.dart';
+import 'package:fda/app/common/widgets/featuredcard.dart';
+import 'package:fda/app/presentation/homescreen/widgets/newscard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fda/cubit/pageviewcubit.dart';
-import '../../model/news_model.dart';
-import 'package:fda/widgets/_categoryBox.dart';
+import 'package:fda/app/common/cubit/pageviewcubit.dart';
+import '../../../common/model/news_model.dart';
+import 'package:fda/app/common/widgets/_categoryBox.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -365,7 +365,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
 
-                // 🔸 PageView kısmı (padding yok!)
                 SizedBox(
                   height: 240,
                   child: BlocBuilder<HomeScrollCubit, double>(

@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:fda/model/tobaccomodel.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
 
 abstract class TobaccoState extends Equatable {
   @override

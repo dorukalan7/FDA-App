@@ -1,5 +1,5 @@
-import 'package:fda/view/radition/cubit/radition_state.dart';
-import 'package:fda/view/radition/services/raditionservice.dart';
+import 'package:fda/app/presentation/radition/cubit/radition_state.dart';
+import 'package:fda/app/presentation/radition/services/raditionservice.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 

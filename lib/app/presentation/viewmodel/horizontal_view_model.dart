@@ -1,4 +1,4 @@
-import '../model/news_model.dart';
+import '../../common/model/news_model.dart';
 
 class HomeViewModel {
   List<NewsModel> getNewsList() {

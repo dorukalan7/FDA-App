@@ -1,5 +1,5 @@
-import 'package:fda/model/vacmodel.dart';
-import 'package:fda/view/vaccines/services/vacservices.dart';
+import 'package:fda/app/common/model/vacmodel.dart';
+import 'package:fda/app/presentation/vaccines/services/vacservices.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'vac_state.dart';
 

@@ -1,13 +1,13 @@
-import 'package:fda/view/drugspage/DrugsPage.dart';
-import 'package:fda/view/medicaldevice/MedicalDevicespage.dart';
-import 'package:fda/view/tobaccopage/TobaccoPage.dart';
-import 'package:fda/view/animalveteriny/animalveteriny.dart';
-import 'package:fda/view/cosmetics/cosmetics.dart';
-import 'package:fda/view/foodspage/foodpage.dart';
-import 'package:fda/view/radition/radiation.dart';
-import 'package:fda/view/vaccines/vaccinespage.dart';
+import 'package:fda/app/presentation/drugspage/view/DrugsPage.dart';
+import 'package:fda/app/presentation/medicaldevice/view/MedicalDevicespage.dart';
+import 'package:fda/app/presentation/tobaccopage/view/TobaccoPage.dart';
+import 'package:fda/app/presentation/animalveteriny/view/animalveteriny.dart';
+import 'package:fda/app/presentation/cosmetics/view/cosmetics.dart';
+import 'package:fda/app/presentation/foodspage/view/foodpage.dart';
+import 'package:fda/app/presentation/radition/view/radiation.dart';
+import 'package:fda/app/presentation/vaccines/view/vaccinespage.dart';
 import 'package:flutter/material.dart';
-import 'package:fda/enum/category_type.dart';
+import 'package:fda/app/common/enum/category_type.dart';
 
 void navigateToCategoryPage(
   Category category,

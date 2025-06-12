@@ -1,6 +1,6 @@
-import 'package:fda/cubit/favorite_cubit.dart';
-import 'package:fda/cubit/pageviewcubit.dart';
-import 'package:fda/view/splash_screen.dart';
+import 'package:fda/app/common/cubit/favorite_cubit.dart';
+import 'package:fda/app/common/cubit/pageviewcubit.dart';
+import 'package:fda/app/presentation/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

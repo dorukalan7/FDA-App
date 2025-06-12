@@ -1,9 +1,9 @@
-import 'package:fda/model/news_model.dart';
-import 'package:fda/view/tobaccopage/tobacco_status.dart';
-import 'package:fda/widgets/pages_box.dart';
+import 'package:fda/app/common/model/news_model.dart';
+import 'package:fda/app/presentation/tobaccopage/view/tobacco_status.dart';
+import 'package:fda/app/common/widgets/pages_box.dart';
 import 'package:flutter/material.dart';
 
-import '../../widgets/featuredcard.dart';
+import '../../../common/widgets/featuredcard.dart';
 
 class Tobaccopage extends StatelessWidget {
   final String title;

@@ -1,18 +1,17 @@
-import 'package:fda/model/FavoriteModel.dart';
-import 'package:fda/model/Listler.dart';
-import 'package:fda/model/drugsinfo.dart';
-import 'package:fda/model/medicaldevicemodel.dart';
-import 'package:fda/model/recall_model.dart';
-import 'package:fda/model/tobaccomodel.dart';
-import 'package:fda/model/vacmodel.dart';
-import 'package:fda/view/drugspage/service/drugservice.dart';
-import 'package:fda/view/foodspage/service/foodsservice.dart';
-import 'package:fda/view/medicaldevice/service/medicaldeviceservice.dart';
-import 'package:fda/view/tobaccopage/services/tobacco_service.dart';
-import 'package:fda/view/vaccines/services/vacservices.dart';
+import 'package:fda/app/common/model/FavoriteModel.dart';
+import 'package:fda/app/common/model/Listler.dart';
+import 'package:fda/app/common/model/Drug_model.dart';
+import 'package:fda/app/common/model/medicaldevicemodel.dart';
+import 'package:fda/app/common/model/Food_model.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
+import 'package:fda/app/common/model/vacmodel.dart';
+import 'package:fda/app/presentation/drugspage/service/drugservice.dart';
+import 'package:fda/app/presentation/foodspage/service/foodsservice.dart';
+import 'package:fda/app/presentation/medicaldevice/service/medicaldeviceservice.dart';
+import 'package:fda/app/presentation/tobaccopage/services/tobacco_service.dart';
+import 'package:fda/app/presentation/vaccines/services/vacservices.dart';
 
 class Searchviewmodel {
-  // Örnek API verileri
   Future<List<Vacmodel>> fetchVaccines() async {
     try {
       final vacService = VacService();

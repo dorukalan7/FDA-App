@@ -1,8 +1,8 @@
-import 'package:fda/view/foodspage/service/foodsservice.dart';
-import 'package:fda/view/foodspage/widget/foods_card.dart';
+import 'package:fda/app/presentation/foodspage/service/foodsservice.dart';
+import 'package:fda/app/presentation/foodspage/widget/foods_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'cubit/status_cubit.dart';
+import '../cubit/status_cubit.dart';
 
 class FilteredStatusPage extends StatelessWidget {
   final String title;

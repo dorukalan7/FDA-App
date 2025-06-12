@@ -1,6 +1,6 @@
-import 'package:fda/view/animalveteriny/service/animalservice.dart';
+import 'package:fda/app/presentation/animalveteriny/service/animalservice.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fda/view/animalveteriny/model/animal_model.dart';
+import 'package:fda/app/common/model/animal_model.dart';
 
 part 'animal_state.dart';
 

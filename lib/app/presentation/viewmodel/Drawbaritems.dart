@@ -1,5 +1,5 @@
-import 'package:fda/enum/category_type.dart';
-import 'package:fda/model/MenuItem.dart';
+import 'package:fda/app/common/enum/category_type.dart';
+import 'package:fda/app/common/model/MenuItem.dart';
 import 'package:flutter/material.dart';
 
 List<MenuItem> featuredItems = [

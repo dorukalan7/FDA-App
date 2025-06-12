@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:fda/model/tobaccomodel.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
 
 class TobaccoService {
   Future<List<TobaccoReport>> fetchTobaccoReports(String status) async {

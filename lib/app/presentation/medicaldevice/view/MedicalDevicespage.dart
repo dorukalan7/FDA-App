@@ -1,9 +1,9 @@
-import 'package:fda/model/news_model.dart';
-import 'package:fda/view/medicaldevice/medicaldevicepage.dart';
-import 'package:fda/widgets/pages_box.dart';
+import 'package:fda/app/common/model/news_model.dart';
+import 'package:fda/app/presentation/medicaldevice/view/medicaldevicepage.dart';
+import 'package:fda/app/common/widgets/pages_box.dart';
 import 'package:flutter/material.dart';
 
-import '../../widgets/featuredcard.dart';
+import '../../../common/widgets/featuredcard.dart';
 
 class Medicaldevicespage extends StatelessWidget {
   final String title;

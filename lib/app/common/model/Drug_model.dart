@@ -1,4 +1,4 @@
-import 'package:fda/utils/dateformat.dart';
+import 'package:fda/app/common/utils/dateformat.dart';
 
 class DrugInfo {
   final String brandName;

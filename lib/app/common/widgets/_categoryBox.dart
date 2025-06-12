@@ -1,6 +1,6 @@
-import 'package:fda/view/homescreen/router/category_router.dart';
+import 'package:fda/app/presentation/homescreen/router/category_router.dart';
 import 'package:flutter/material.dart';
-import 'package:fda/enum/category_type.dart' as my_cat;
+import 'package:fda/app/common/enum/category_type.dart' as my_cat;
 
 Widget categoryBox(my_cat.Category category, BuildContext context) {
   final text = category.title;

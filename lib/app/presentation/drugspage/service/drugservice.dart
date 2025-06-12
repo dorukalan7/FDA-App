@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../../../model/drugsinfo.dart';
+import '../../../common/model/Drug_model.dart';
 
 class DrugService {
   Future<List<DrugInfo>> fetchDrugsByRoute(String route) async {

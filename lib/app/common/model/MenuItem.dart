@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fda/enum/category_type.dart';
+import 'package:fda/app/common/enum/category_type.dart';
 
 class MenuItem {
   final IconData icon;

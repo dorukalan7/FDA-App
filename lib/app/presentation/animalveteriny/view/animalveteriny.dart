@@ -1,7 +1,7 @@
-import 'package:fda/model/news_model.dart';
-import 'package:fda/view/animalveteriny/animalstatus.dart';
-import 'package:fda/widgets/pages_box.dart';
-import 'package:fda/widgets/featuredcard.dart';
+import 'package:fda/app/common/model/news_model.dart';
+import 'package:fda/app/presentation/animalveteriny/view/animalstatus.dart';
+import 'package:fda/app/common/widgets/pages_box.dart';
+import 'package:fda/app/common/widgets/featuredcard.dart';
 import 'package:flutter/material.dart';
 
 class Animalveteriny extends StatelessWidget {

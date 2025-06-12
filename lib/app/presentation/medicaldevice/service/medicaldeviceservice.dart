@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:fda/model/medicaldevicemodel.dart';
+import 'package:fda/app/common/model/medicaldevicemodel.dart';
 
 class MedicalDeviceService {
   final Dio _dio = Dio();

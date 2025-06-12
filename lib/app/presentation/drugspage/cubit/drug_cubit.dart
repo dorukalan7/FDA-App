@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
-import 'package:fda/model/drugsinfo.dart';
-import 'package:fda/view/drugspage/service/drugservice.dart';
+import 'package:fda/app/common/model/Drug_model.dart';
+import 'package:fda/app/presentation/drugspage/service/drugservice.dart';
 import 'package:meta/meta.dart';
 
 part 'drug_state.dart';

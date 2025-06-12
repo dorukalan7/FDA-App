@@ -1,9 +1,9 @@
-import 'package:fda/model/news_model.dart';
-import 'package:fda/view/vaccines/vaccinestatus.dart';
-import 'package:fda/widgets/pages_box.dart';
+import 'package:fda/app/common/model/news_model.dart';
+import 'package:fda/app/presentation/vaccines/view/vaccinestatus.dart';
+import 'package:fda/app/common/widgets/pages_box.dart';
 import 'package:flutter/material.dart';
 
-import '../../widgets/featuredcard.dart';
+import '../../../common/widgets/featuredcard.dart';
 
 class Vaccinespage extends StatelessWidget {
   final String title;

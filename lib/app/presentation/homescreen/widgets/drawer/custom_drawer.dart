@@ -1,10 +1,10 @@
-import 'package:fda/cubit/favorite_cubit.dart';
-import 'package:fda/model/FavoriteModel.dart';
-import 'package:fda/model/MenuItem.dart';
-import 'package:fda/viewmodel/MenuItems.dart';
-import 'package:fda/view/WebViewPage.dart';
-import 'package:fda/view/favorite_page.dart';
-import 'package:fda/view/homescreen/router/category_router.dart';
+import 'package:fda/app/common/cubit/favorite_cubit.dart';
+import 'package:fda/app/common/model/FavoriteModel.dart';
+import 'package:fda/app/common/model/MenuItem.dart';
+import 'package:fda/app/presentation/viewmodel/Drawbaritems.dart';
+import 'package:fda/app/presentation/webviewpage/WebViewPage.dart';
+import 'package:fda/app/presentation/homescreen/view/favorite_page.dart';
+import 'package:fda/app/presentation/homescreen/router/category_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

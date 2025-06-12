@@ -1,8 +1,8 @@
 // ignore: depend_on_referenced_packages
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:fda/model/recall_model.dart';
-import 'package:fda/view/foodspage/service/foodsservice.dart';
+import 'package:fda/app/common/model/Food_model.dart';
+import 'package:fda/app/presentation/foodspage/service/foodsservice.dart';
 
 part 'status_state.dart';
 

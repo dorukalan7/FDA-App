@@ -1,8 +1,8 @@
-import 'package:fda/model/tobaccomodel.dart';
-import 'package:fda/view/tobaccopage/utils/datetime.dart';
+import 'package:fda/app/common/model/tobaccomodel.dart';
+import 'package:fda/app/presentation/tobaccopage/utils/datetime.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fda/view/tobaccopage/services/tobacco_service.dart';
-import 'package:fda/view/tobaccopage/cubit/cubitstate.dart';
+import 'package:fda/app/presentation/tobaccopage/services/tobacco_service.dart';
+import 'package:fda/app/presentation/tobaccopage/cubit/cubitstate.dart';
 
 enum SortOrder { ascending, descending }
 
