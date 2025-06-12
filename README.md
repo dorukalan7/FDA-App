@@ -1,16 +1,33 @@
-# fda
+# 🧪 FDA App - Flutter ile Gelişmiş Ürün Bilgi Arama Uygulaması
 
-A new Flutter project.
+Bu proje, **Flutter** kullanılarak geliştirilmiş bir mobil uygulamadır ve kullanıcıların **FDA (Food and Drug Administration)** veritabanında bulunan ürünleri (ilaç, gıda vb.) kolaylıkla arayıp görüntülemesini sağlar. Uygulama modern bir kullanıcı arayüzü, güçlü API entegrasyonu, gelişmiş arama sistemi ve lokal veri saklama özellikleriyle donatılmıştır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎥 Demo Videosu
 
-A few resources to get you started if this is your first Flutter project:
+📺 Uygulamanın canlı tanıtımı için aşağıdaki bağlantıya göz atabilirsiniz:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[![YouTube Video](https://img.youtube.com/vi/iDCO0zlIvoQ/0.jpg)](https://www.youtube.com/watch?v=iDCO0zlIvoQ)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Özellikler
+
+- 🔍 **Gelişmiş Arama Sistemi**  
+  Ürün adına, firmaya veya etkin maddeye göre detaylı arama yapabilirsiniz. Veriler, canlı olarak FDA API üzerinden çekilir.
+
+- 🧩 **Enum Kullanımı**  
+  Kod içinde sabit değerler için `enum` yapısı kullanılarak okunabilirlik ve sürdürülebilirlik artırılmıştır.
+
+- 💾 **SharedPreferences ile Lokal Veri Saklama**  
+  Son arama terimleri, kullanıcı tercihleri ve favoriler gibi bilgiler cihazda güvenli bir şekilde saklanır.
+
+- 🎨 **Modern UI / UX**  
+  Temiz, şık ve mobil uyumlu arayüz ile yüksek kullanıcı deneyimi sunar.
+
+- 📡 **FDA API Entegrasyonu**  
+  Resmi FDA açık verileri REST API ile uygulamaya entegre edilmiştir.
+
+- ⚙️ **Kolay Kurulum ve Kullanım**  
+  Flutter geliştiricileri için kolay kurulum ve anlaşılır yapı.
