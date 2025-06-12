@@ -1,33 +1,33 @@
-# 🧪 FDA App - Flutter ile Gelişmiş Ürün Bilgi Arama Uygulaması
+# 🧪 FDA App - Flutter-Based Advanced Product Information Search Application
 
-Bu proje, **Flutter** kullanılarak geliştirilmiş bir mobil uygulamadır ve kullanıcıların **FDA (Food and Drug Administration)** veritabanında bulunan ürünleri (ilaç, gıda vb.) kolaylıkla arayıp görüntülemesini sağlar. Uygulama modern bir kullanıcı arayüzü, güçlü API entegrasyonu, gelişmiş arama sistemi ve lokal veri saklama özellikleriyle donatılmıştır.
+This project is a mobile application developed using Flutter that allows users to easily search and view products (such as drugs, food, etc.) available in the FDA (Food and Drug Administration) database. The app features a modern user interface, strong API integration, an advanced search system, and local data storage capabilities.
 
 ---
 
-## 🎥 Demo Videosu
+## 🎥 Demo Video
 
-📺 Uygulamanın canlı tanıtımı için aşağıdaki bağlantıya göz atabilirsiniz:
+📺 You can watch the live demo of the application via the link below:
 
 [![YouTube Video](https://img.youtube.com/vi/iDCO0zlIvoQ/0.jpg)](https://www.youtube.com/watch?v=iDCO0zlIvoQ)
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- 🔍 **Gelişmiş Arama Sistemi**  
-  Ürün adına, firmaya veya etkin maddeye göre detaylı arama yapabilirsiniz. Veriler, canlı olarak FDA API üzerinden çekilir.
+- 🔍 **Advanced Search System**  
+  Perform detailed searches by product name, company, or active ingredient. The data is fetched live from the FDA API.
 
-- 🧩 **Enum Kullanımı**  
-  Kod içinde sabit değerler için `enum` yapısı kullanılarak okunabilirlik ve sürdürülebilirlik artırılmıştır.
+- 🧩 **Enum Usage**  
+  `Enum` structures are used in the code for constant values to improve readability and maintainability.
 
-- 💾 **SharedPreferences ile Lokal Veri Saklama**  
-  Son arama terimleri, kullanıcı tercihleri ve favoriler gibi bilgiler cihazda güvenli bir şekilde saklanır.
+- 💾 **Local Data Storage with SharedPreferences**  
+  Stores recent search terms, user preferences, and favorites securely on the device.
 
 - 🎨 **Modern UI / UX**  
-  Temiz, şık ve mobil uyumlu arayüz ile yüksek kullanıcı deneyimi sunar.
+  Offers a clean, stylish, and mobile-friendly interface for a high-quality user experience.
 
-- 📡 **FDA API Entegrasyonu**  
-  Resmi FDA açık verileri REST API ile uygulamaya entegre edilmiştir.
+- 📡 **FDA API Integration**  
+  Official FDA open data is integrated into the app via REST API.
 
-- ⚙️ **Kolay Kurulum ve Kullanım**  
-  Flutter geliştiricileri için kolay kurulum ve anlaşılır yapı.
+- ⚙️ **Easy Setup and Usage**  
+  Designed with a clear structure and easy setup process for Flutter developers.
