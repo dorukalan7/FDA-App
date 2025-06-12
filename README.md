@@ -23,7 +23,7 @@ This project is a mobile application developed using Flutter that allows users t
 - 💾 **Local Data Storage with SharedPreferences**  
   Stores recent search terms, user preferences, and favorites securely on the device.
 
-  - 🧠 **State Management with Cubit (Bloc Library)**  
+- 🧠 **State Management with Cubit (Bloc Library)**  
   The application uses the **Cubit** pattern from the Bloc library to manage UI state in a predictable and scalable way.
 
 - 🏗️ **Clean Architecture**  
